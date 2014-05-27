@@ -8,6 +8,8 @@ Ideia
 
 ![Azaleko irudia](img/index.png "Azaleko irudia")
 
+![Mugikorreko bertsioa](img/mugikorra.png "Mugikorreko bertsioa")
+
 Bertan sartuko diren elementuak
 -------------------------------
 
