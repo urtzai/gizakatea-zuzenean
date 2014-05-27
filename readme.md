@@ -6,7 +6,15 @@ Ekainak 8ko gizakateari buruzko zuzeneko informazioa bistaratuko duen webgune si
 Ideia
 -----
 
+Pantaila osoan
+--------------
+--------------
+
 ![Azaleko irudia](img/index.png "Azaleko irudia")
+
+Mugikorrean
+-----------
+-----------
 
 ![Mugikorreko bertsioa](img/mugikorra.png "Mugikorreko bertsioa")
 
