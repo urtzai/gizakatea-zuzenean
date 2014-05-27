@@ -8,3 +8,15 @@ Ideia
 
 ![Azaleko irudia](img/index.png "Azaleko irudia")
 
+Bertan sartuko diren elementuak
+-------------------------------
+
+- Gizakateari buruzko informazioa orokorra
+- Eguneko egitarau orokorra eta ekitalde garrantzitsuenetakoak
+- 3 puntu desberdinetako zuzeneko bideoaren streaming-a
+- Automatikoki eguneratuko den argazki bilduma
+- Zuzeneko irratsaioaren streaming-a
+- Telebista saio berezia
+- Eguneko txioen widget bat
+- FAQ egunari buruzko galderekin
+- Bestelako Informazio gehigarria
