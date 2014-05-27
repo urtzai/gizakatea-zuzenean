@@ -122,8 +122,15 @@ body {
   box-shadow: 0px 5px 10px #888888;
 }
 
-.carousel-indicators {
-  background-image: url('img/izenburua.png');
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+/* Photo gallery styles */
+
+#photo-gallery {
+  box-shadow: 0px 5px 10px #888888;
 }
 
 /* Footer Styles */
