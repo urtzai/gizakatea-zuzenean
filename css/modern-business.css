@@ -27,6 +27,13 @@ body {
   margin-top: 15px;
 }
 
+/* Buttons */
+
+.btn-primary {
+  background-color: #40bbc3;
+  border-color: #00626f;
+}
+
 /* Page Sections */
 .section,
 .section-colored {
