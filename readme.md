@@ -19,7 +19,7 @@ Bertan sartuko diren elementuak
 Ideia
 -----
 
-Ondorengo irudietan, webguneak gailu desberdinetan izango duen itxura erakutsi nahi da. [Bootstrap](http://getbootstrap.com/2.3.2/ "Bootstrap") teknologia erabili da webgune hau modu erraz batean *responsive* izan dadin.
+Ondorengo irudietan, webguneak gailu desberdinetan izango duen itxura erakutsi nahi da. [Bootstrap](http://getbootstrap.com/2.3.2/ "Bootstrap") teknologia erabili da webgune hau modu erraz batean `*responsive*` izan dadin.
 
 Pantaila osoan
 --------------
