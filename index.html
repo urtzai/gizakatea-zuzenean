@@ -16,6 +16,12 @@
     <!-- Add custom CSS here -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/modern-business.js"></script>
+    <script type="text/javascript" src="js/i18next-1.7.3.js" ></script>
 
 </head>
 
@@ -23,7 +29,7 @@
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header translation">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -31,34 +37,34 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                <a class="navbar-brand" href="index.html"><img src="img/logoa.png"/>&nbsp;Gizakatea zuzenean<img src="img/rec_icon.png"/></a>
+                <a class="navbar-brand" href="index.html" data-i18n="[html]translation.title"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="templates/honi-buruz.html">Honi buruz</a>
+                <ul class="nav navbar-nav navbar-right translation">
+                    <li><a href="templates/honi-buruz.html" data-i18n="translation.about"></a>
                     </li>
-                    <li><a href="templates/jaialdiak.html">Jaialdiak</a>
+                    <li><a href="templates/jaialdiak.html" data-i18n="translation.festivals"></a>
                     </li>
-                    <li><a href="templates/faq.html">MEG</a>
+                    <li><a href="templates/faq.html" data-i18n="translation.faq"></a>
                     </li>
-                    <!--<li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-i18n="[html]translation.langs"></a>
                         <ul class="dropdown-menu">
-                            <li><a href="templates/portfolio-1-col.html">1 Column Portfolio</a>
+                            <li><a href="?setLng=eu-ES">Euskara</a>
                             </li>
-                            <li><a href="templates/portfolio-2-col.html">2 Column Portfolio</a>
+                            <li><a href="?setLng=es-ES">Español</a>
                             </li>
-                            <li><a href="templates/portfolio-3-col.html">3 Column Portfolio</a>
+                            <li><a href="?setLng=fr">Français</a>
                             </li>
-                            <li><a href="templates/portfolio-4-col.html">4 Column Portfolio</a>
+                            <li><a href="?setLng=en-UK">English</a>
                             </li>
-                            <li><a href="templates/portfolio-item.html">Single Portfolio Item</a>
+                            <li><a href="?setLng=ca-ES">Català</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="templates/blog-home-1.html">Blog Home 1</a>
@@ -104,20 +110,20 @@
         <div class="carousel-inner">
             <div class="item active">
                 <div class="fill" style="background-image:url('img/slide1.jpg');"></div>
-                <div class="carousel-caption">
-                    <h1>Nazioa gara!</h1>
+                <div class="carousel-caption translation">
+                    <h1 data-i18n="translation.nation"></h1>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('img/slide2.jpg');"></div>
                 <div class="carousel-caption">
-                    <h1>Erabakitzeko eskubidea dugu!</h1>
+                    <h1 data-i18n="translation.right2decide"></h1>
                 </div>
             </div>
             <div class="item">
                 <div class="fill" style="background-image:url('img/slide3.jpg');"></div>
                 <div class="carousel-caption">
-                    <h1>Herritarron garaia da!</h1>
+                    <h1 data-i18n="translation.ourtime"></h1>
                 </div>
             </div>
         </div>
@@ -135,17 +141,17 @@
 
         <div class="container">
 
-            <div class="row">
+            <div class="row translation">
                 <div class="col-lg-4 col-md-4">
-                    <h3>Durangoko jaialdia</h3>
+                    <h3 data-i18n="translation.durango"></h3>
                     <p><iframe width="300" height="169" src="http://www.youtube.com/embed/mQO9L6VjQmE" frameborder="0" allowfullscreen></iframe></p>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <h3>Helikopteroko irudiak</h3>
+                    <h3 data-i18n="translation.helicopter"></h3>
                     <p><iframe width="300" height="169" src="http://www.youtube.com/embed/au3ZqgZR2UI" frameborder="0" allowfullscreen></iframe></p>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <h3>Iruñako castellersa</h3>
+                    <h3 data-i18n="translation.iruñea"></h3>
                     <p><iframe width="300" height="169" src="http://www.youtube.com/embed/dAkHgqTYxl8" frameborder="0" allowfullscreen></iframe></p>
                 </div>
             </div>
@@ -162,8 +168,8 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-12">
-                    <h2>Eguneko argazki bilduma momentu oro aldatzen ari gara</h2>
+                <div class="col-lg-12 translation">
+                    <h2 data-i18n="translation.photogallerytext"></h2>
                     <hr>
                     <img src="img/argazki_bilduma.png"/>
                 </div>
@@ -266,17 +272,17 @@
 			<div class="col-lg-12 col-md-12 col-sm-12">
 			    <img src="img/arrosa_zuzenean.png"/>
 			</div>
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-		            <h2>Izan zu ere zuzeneko berriemaile!</h2>
+                        <div class="col-lg-12 col-md-12 col-sm-12 translation">
+		            <h2 data-i18n="translation.bejournalist"></h2>
 		            <ul>
-		                <li>Erabili sare sozialak zure inguruko berri emateko</li>
-		                <li><strong>#gukErabaki</strong> eta <strong>#weDecide</strong> traolez markatu euskarazko mezuak</li>
-                                <li>Jarri zauden kilometroko traola zehatzagoa izateko. Adib: <strong>#82km</strong></li>
-		                <li>Mezuetan txertatzen dituzun argazkiak webgune honetan agertuko dira</li>
-		                <li>Mezu positibo eta inklusiboak zabaldu</li>
-				<li>Norbanakoen mezuak hobetsiko ditugu erakundeenen gainetik</li>
-				<li>Ahalik eta aniztasun gehien biltzeko Gure Esku Dagoren oinarrietan mantendu mesedez</li>
-		                <li>Zabal dezagun <strong>#erabakitzekoEskubidea</strong> lau haizetara!</li>
+		                <li data-i18n="translation.journalist1"></li>
+		                <li data-i18n="[html]translation.journalist2"></li>
+                                <li data-i18n="[html]translation.journalist3"></li>
+		                <li data-i18n="translation.journalist4"></li>
+		                <li data-i18n="translation.journalist5"></li>
+				<li data-i18n="translation.journalist6"></li>
+				<li data-i18n="translation.journalist7"></li>
+		                <li data-i18n="[html]translation.journalist8"></li>
 		            </ul>
 		        </div>
                 </div>
@@ -292,12 +298,12 @@
     <div class="container">
 
         <div class="row well">
-            <div class="col-lg-8 col-md-8">
-                <h4>Oraindik ere zalantzak dituzu ekimen honen inguruan?</h4>
-                <p>Gizakatearen inguruko zalantza esanguratsuenak argitzen saiatu gara maiz egiten diren galderen erantzunak jasoaz.</p>
+            <div class="col-lg-8 col-md-8 translation">
+                <h4 data-i18n="translation.doubtstitle"></h4>
+                <p data-i18n="translation.doubtstext"></p>
             </div>
-            <div class="col-lg-4 col-md-4">
-                <a class="btn btn-lg btn-primary pull-right" href="templates/faq.html">Ikusi Maiz Egiten diren Galderak!</a>
+            <div class="col-lg-4 col-md-4 translation">
+                <a class="btn btn-lg btn-primary pull-right" href="templates/faq.html" data-i18n="translation.doubtsbutton"></a>
             </div>
         </div>
         <!-- /.row -->
@@ -314,8 +320,8 @@
                 <div class="col-lg-10">
                     <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons-en baimena" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
                 </div>
-                <div class="col-lg-2">
-                    <p><img src="img/logoa_txuri_beltz.png"/> GED IKT taldea</p>
+                <div class="col-lg-2 translation">
+                    <p data-i18n="[html]translation.gedIT"></p>
                 </div>
             </div>
         </footer>
@@ -323,10 +329,11 @@
     </div>
     <!-- /.container -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
+    <script>
+        $.i18n.init(function() {
+	    $('.translation').i18n();
+	});
+    </script>
 
 </body>
 
