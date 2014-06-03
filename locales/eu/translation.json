@@ -2,6 +2,8 @@
   "translation": {
     "title": "<img src='img/logoa.png' />&nbsp;Gizakatea zuzenean<img src='img/rec_icon.png'/>",
     "about": "Honi buruz",
+    "about_title": "Honi buruz <small>Zer da guzti hau?</small>",
+    "home": "Sarrera",
     "festivals": "Jaialdiak",
     "faq": "MEG",
     "langs": "Hizkuntzak <b class='caret'></b>",

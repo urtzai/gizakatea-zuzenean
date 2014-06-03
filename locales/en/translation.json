@@ -2,6 +2,8 @@
   "translation": {
     "title": "<img src='img/logoa.png' />&nbsp;Human chain LIVE<img src='img/rec_icon.png'/>",
     "about": "About us",
+    "about_title": "About us <small>What's all about this?</small>",
+    "home": "Home",
     "festivals": "Festivals",
     "faq": "FAQ",
     "langs": "Languages <b class='caret'></b>",
