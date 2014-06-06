@@ -89,12 +89,16 @@
     "faq5": "Autobuserako gehiago ordaindu behar da?",
     "faq6": "Zer eraman behar dut egunean bertan?",
     "faq7": "Gizakatera ezin dut joan, baina zerbaitetan lagundu nahi dut...",
-    "faqaw1": "",
-    "faqaw2": "",
-    "faqaw3": "",
-    "faqaw4": "",
-    "faqaw5": "",
-    "faqaw6": "",
-    "faqaw7": ""
+    "faqaw1": "Dinamikak azpiegitura on bat edukitzeko erabili dira, tartean, era askotako materiala ordaintzeko: kartelak eta esku orriak, GED iragarkia, martxoaren 29ko ekitaldia...",
+    "faqaw2": "Ez da derrigorrezkoa.",
+    "faqaw3": "Primeran, ahalik eta esku gehien elkartu behar ditugu erabakitzeko eskubidearen alde.",
+    "faqaw4": "Erabakitzeko eskubidea eskatuko duen dinamika indartsua izatea nahi dugu, eta hori ezin da inprobisazioaren esku utzi. Bete dugu helburua, badakigu milaka eta milaka izango garela ekainaren 8an: autobus eta kotxe andana dira, eta koordinazioa eta aurretikako antolaketa (eta beraz, izen ematea) ere beharrezkoa izan da.",
+    "faqaw5": "Bai. Autobusak ez dira batere merkeak, eta beraz, ordaindu egin behar. Herri bakoitzak bere irizpideak jarri ditu zentzu honetan, baina oro har, prezioak honakoak dira: helduek 10 euro eta haurrek 5.",
+    "faqaw6": "Umorea da garrantzitsuena. Aldarrikapena festa bat izan dadila nahi dugu, eta hori ere, parte hartzaile bakoitzaren esku dago. Horrez gain, arropa erosoa eta bazkaria eramatea ere gomendatzen dugu. Dena den, <a href='honi-buruz'>liburuxka bat</a> ere osatu dugu gomendio gehiagorekin.",
+    "faqaw7": "Hainbat modutara lagun dezakezu. Noski, gure esku dagoren mezua zabaltzea da horietako bat: ahoz aho, sare sozialen bidez… Horrez gain, <a href='http://gureeskudago.net/eu/14-ged/213-egin-ezazu-zure-ekarpena'>0 kilometroa</a> ere sortu dugu, hau da, giza katera joaterik ez duten eta ekarpena egin nahi dutenen kilometroa.",
+    "faq_header": "MEG - Gizakatea zuzenean - Gure esku dago",
+    "festivals_header": "Jaialdiak - Gizakatea zuzenean - Gure esku dago",
+    "about_header": "Honi buruz - Gizakatea zuzenean - Gure esku dago",
+    "live_header": "Gizakatea zuzenean - Gure esku dago"
   }	
 }
